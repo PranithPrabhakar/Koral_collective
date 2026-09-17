@@ -23,10 +23,6 @@ export function WalkWithUs() {
       <div className="relative z-10 grid gap-12 lg:grid-cols-[1fr_0.8fr] lg:items-center lg:gap-20">
         {/* Left content */}
         <div className="max-w-xl">
-          <p className="text-xs font-medium tracking-[0.22em] text-[#e2b477]">
-            Make a beginning
-          </p>
-
           <h2
             id="walk-with-us-heading"
             className="mt-4 text-5xl font-serif font-medium leading-none text-[#f3e8d2] sm:text-7xl"

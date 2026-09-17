@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 
+import { Faqs } from "@/components/home/Faqs";
 import { Section } from "@/components/ui/Section";
 import { getAllExperiences } from "@/content";
 
@@ -142,22 +143,6 @@ const trails: Trail[] = [
   },
 ];
 
-const rathaBeedi = {
-  name: "Ratha Beedi",
-  duration: "2 hours",
-  durationHours: 2 as const,
-  price: "₹1600 or $25/per person",
-  description: "A walking trail through Udupi's living temple quarter, where ritual, commerce, architecture, and everyday life meet.",
-  highlights: [
-    "The Krishna Temple complex",
-    "The ritual life of the temple square",
-    "Ratha Beedi and its changing streetscape",
-    "Shops, eateries, and everyday life",
-    "Historic buildings and local memory",
-  ],
-  pictogram: "https://res.cloudinary.com/ev7y5xh0/image/upload/v1789391223/Ratha_details.png",
-};
-
 export function OfferingExperience() {
   const [activeIndex, setActiveIndex] = useState(0);
   const activeTrail = trails[activeIndex];
@@ -167,11 +152,11 @@ export function OfferingExperience() {
   const selectTrail = (index: number) => setActiveIndex((index + trails.length) % trails.length);
 
   return (
-    <Section id="offerings" as="section" aria-labelledby="offerings-heading" className="border-b border-[var(--color-border-subtle)] bg-[var(--color-bg-base)]">
+    <>
+      <Section id="offerings" as="section" aria-labelledby="offerings-heading" className="border-b border-[var(--color-border-subtle)] bg-[var(--color-bg-base)]">
       <div className="space-y-10">
         <div className="max-w-2xl">
-          <p className="text-xs font-medium tracking-[0.22em] text-[var(--color-brand-primary)]">Our offerings</p>
-          <h1 id="offerings-heading" className="mt-3 text-4xl font-serif font-medium leading-none text-[var(--color-text-primary)] sm:text-6xl">Walking trails of Tulunadu.</h1>
+          <h1 id="offerings-heading" className="text-4xl font-serif font-medium leading-none text-[var(--color-text-primary)] sm:text-6xl">Offerings</h1>
         </div>
 
         {/* Duration legend */}
@@ -246,10 +231,7 @@ export function OfferingExperience() {
             </div>
             <div className="flex items-start justify-between gap-4">
               <div>
-                <p className="text-xs font-medium tracking-[0.2em] text-[var(--color-brand-primary)]">
-                  {activeIndex + 1} / {trails.length}
-                </p>
-                <h2 className="mt-3 text-4xl font-serif font-medium leading-none text-[var(--color-text-primary)] sm:text-5xl lg:text-6xl">
+                <h2 className="text-4xl font-serif font-medium leading-none text-[var(--color-text-primary)] sm:text-5xl lg:text-6xl">
                   {activeTrail.name} trail
                 </h2>
                 <div className="mt-3 flex items-center gap-3">
@@ -336,46 +318,9 @@ export function OfferingExperience() {
           </article>
         </div>
 
-        {/* Ratha Beedi — separate offering, not on the map */}
-        <div className="border-t border-[var(--color-border-strong)] pt-10">
-          <p className="text-xs font-medium tracking-[0.22em] text-[var(--color-brand-primary)] mb-6">
-            Also available
-          </p>
-          <div className="grid gap-8 sm:grid-cols-[auto_1fr] items-start max-w-3xl">
-            <Image
-              src={rathaBeedi.pictogram}
-              alt=""
-              width={350}
-              height={350}
-              className="h-16 w-16 object-contain"
-            />
-            <div>
-              <div className="flex flex-wrap items-center gap-3">
-                <h2 className="text-2xl font-serif font-medium text-[var(--color-text-primary)]">
-                  {rathaBeedi.name} trail
-                </h2>
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-[#718d53]/15 px-3 py-1 text-xs font-medium text-[#3d572d]">
-                  <span className="h-1.5 w-1.5 rounded-full bg-[#718d53]" aria-hidden="true" />
-                  {rathaBeedi.duration}
-                </span>
-                <span className="text-sm text-[var(--color-text-muted)]">{rathaBeedi.price}</span>
-              </div>
-              <p className="mt-4 text-base leading-relaxed text-[var(--color-text-muted)]">{rathaBeedi.description}</p>
-              <ul className="mt-4 space-y-1.5 text-sm leading-relaxed text-[var(--color-text-muted)]">
-                {rathaBeedi.highlights.map((highlight) => (
-                  <li key={highlight} className="flex gap-2">
-                    <span aria-hidden="true">•</span>
-                    <span>{highlight}</span>
-                  </li>
-                ))}
-              </ul>
-              <p className="mt-4 text-xs italic text-[var(--color-text-subtle)]">
-                * Udupi city walk — make your own way to the meeting point.
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
-    </Section>
+      </Section>
+      <Faqs />
+    </>
   );
 }
