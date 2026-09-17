@@ -1,0 +1,31 @@
+:root {
+  /* Surfaces */
+  --color-bg-base: #F3E8D2;
+  --color-bg-surface: #FBF4E7;
+  --color-bg-subtle: #DCC9B4;
+
+  /* Text & Content */
+  --color-text-primary: #2E211B;
+  --color-text-muted: #50382B;
+  --color-text-subtle: #806553;
+  --color-text-inverse: #F3E8D2;
+
+  /* Brand & Accent (Parametric design tokens) */
+  --color-brand-primary: #5A3828;
+  --color-brand-secondary: #5A3828;
+  --color-accent: #B28A45;
+
+  /* Borders & Dividers */
+  --color-border-subtle: #D5BFA9;
+  --color-border-strong: #B28A45;
+
+  /* Typography Stack Tokens (Overridden by Next.js fonts) */
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+
+  /* Radii */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-full: 9999px;
+}
