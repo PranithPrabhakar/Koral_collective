@@ -43,8 +43,7 @@ const trails: Trail[] = [
     duration: "2 hours",
     durationHours: 2,
     price: "₹1600 or $25/per person",
-    description: "From sacred chariot route to vibrant bazaar to living record of a town in motion, Ratha Beedi—the historic Car Street encircling Krishna Matha—is Udupi’s most storied thoroughfare of faith, commerce, and everyday life.
-",
+    description: "From sacred chariot route to vibrant bazaar to living record of a town in motion, Ratha Beedi—the historic Car Street encircling Krishna Matha—is Udupi’s most storied thoroughfare of faith, commerce, and everyday life.",
     highlights: [
       "The Krishna Temple complex (Krishna Matha)",
       "The ritual life of the temple square",
