@@ -23,7 +23,7 @@ type Trail = {
 
 const trails: Trail[] = [
   {
-    name: "Kallianpur",
+    name: "Kallianpur trail",
     duration: "2 hours",
     durationHours: 2,
     price: "₹1600 or $25/per person",
@@ -34,36 +34,32 @@ const trails: Trail[] = [
       "A hero stone and a sati shrine",
       "Vasco da Gama and the Portuguese connection",
       "The Church of Nossa Senhora de Milagres",
-      "The Deportation of 1784",
-      "The Miracle of the Bees",
-      "Living memory lanes",
     ],
-    leader: "Leslie J Dias",
-    leaderHref: "/team",
     pictogram: "https://res.cloudinary.com/ev7y5xh0/image/upload/v1789391228/Church_details.png",
     position: { left: "34%", top: "45%" },
   },
   {
-    name: "Ratha Beedi",
+    name: "Ratha Beedi trail",
     duration: "2 hours",
     durationHours: 2,
     price: "₹1600 or $25/per person",
-    description: "A walking trail through Udupi's living temple quarter, where ritual, commerce, architecture, and everyday life meet.",
+    description: "From sacred chariot route to vibrant bazaar to living record of a town in motion, Ratha Beedi—the historic Car Street encircling Krishna Matha—is Udupi’s most storied thoroughfare of faith, commerce, and everyday life.
+",
     highlights: [
-      "The Krishna Temple complex",
+      "The Krishna Temple complex (Krishna Matha)",
       "The ritual life of the temple square",
-      "Ratha Beedi and its changing streetscape",
-      "Shops, eateries, and everyday life",
-      "Historic buildings and local memory",
+      "The evolving streetscape of Ratha Beedi",
+      "Generations of shops, eateries, and everyday practice",
+      "The buildings and facades that hold the temple town’s memory",
     ],
     pictogram: "https://res.cloudinary.com/ev7y5xh0/image/upload/v1789391223/Ratha_details.png",
     position: { left: "34%", top: "56%" },
   },
   {
-    name: "Barkur",
+    name: "Barkur trail",
     duration: "6 hours",
     durationHours: 6,
-    price: "₹4500 or $75/per person",
+    price: "₹5000 or $75/per person",
     description: "From Alupa dynasty capital to ancient global trading port to a jewel in the Vijayanagara empire, Barakanur—today's Barkur—is a heritage town of royal legacy, lost empires, and timeless stone architecture on the banks of the Seetha River.",
     highlights: [
       "Capital city for 400 years during the Alupa reign",
@@ -77,10 +73,10 @@ const trails: Trail[] = [
     position: { left: "35%", top: "32%" },
   },
   {
-    name: "Basrur",
+    name: "Basrur trail",
     duration: "6 hours",
     durationHours: 6,
-    price: "₹4500 or $75/per person",
+    price: "₹5000 or $75/per person",
     description: "From Vijayanagara trading port to colonial battleground to tranquil village on the banks of the Varahi River, Barcelore—known today as Basrur—is a historic hamlet of global trade, royal ambition, and enduring past.",
     highlights: [
       "Maritime trade hub connecting Arabia, China, Europe and coveted by the Portuguese, Dutch, and British",
@@ -93,10 +89,10 @@ const trails: Trail[] = [
     position: { left: "30%", top: "15%" },
   },
   {
-    name: "Shirva",
+    name: "Shirva trail",
     duration: "6 hours",
     durationHours: 6,
-    price: "₹4500 or $75/per person",
+    price: "₹5000 or $75/per person",
     description: "From prehistoric megalith to medieval palace to land of the living folk epic, Shirva—the agrarian hinterland of Tulunadu—is a rarefied world of ancient ritual, enduring stone, and unbroken tradition.",
     highlights: [
       "The megalithic dolmen at Palli",
@@ -109,10 +105,10 @@ const trails: Trail[] = [
     position: { left: "45%", top: "68%" },
   },
   {
-    name: "Moodabidri",
+    name: "Moodabidri trail",
     duration: "6 hours",
     durationHours: 6,
-    price: "₹4500 or $75/per person",
+    price: "₹5000 or $75/per person",
     description: "From age-old bamboo groves to the epicentre of Jainism to living heritage town, Moodbidri—the Jain Kashi of the South—is a site of sacred stone, royal patronage, and monolithic magnificence.",
     highlights: [
       "Royal legacy of the Alupas, the Vijayanagara empire, and the Chowta dynasty",
@@ -125,10 +121,10 @@ const trails: Trail[] = [
     position: { left: "78%", top: "85%" },
   },
   {
-    name: "Karkala",
+    name: "Karkala trail",
     duration: "6 hours",
     durationHours: 6,
-    price: "₹4500 or $75/per person",
+    price: "₹5000 or $75/per person",
     description: "From black granite capital to Jain pilgrimage centre to living monument of medieval stonecraft, Karikallu—today's Karkala—is a landmark of Jain culture, philosophy, and immutable artisan traditions.",
     highlights: [
       "Capital of the Bhairarasa Palegars",
