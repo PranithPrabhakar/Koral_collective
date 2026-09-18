@@ -23,7 +23,7 @@ type Trail = {
 
 const trails: Trail[] = [
   {
-    name: "Kallianpur trail",
+    name: "Kallianpur",
     duration: "2 hours",
     durationHours: 2,
     price: "₹1600 or $25/per person",
@@ -39,7 +39,7 @@ const trails: Trail[] = [
     position: { left: "34%", top: "45%" },
   },
   {
-    name: "Ratha Beedi trail",
+    name: "Ratha Beedi",
     duration: "2 hours",
     durationHours: 2,
     price: "₹1600 or $25/per person",
@@ -55,7 +55,7 @@ const trails: Trail[] = [
     position: { left: "34%", top: "56%" },
   },
   {
-    name: "Barkur trail",
+    name: "Barkur",
     duration: "6 hours",
     durationHours: 6,
     price: "₹5000 or $75/per person",
@@ -72,7 +72,7 @@ const trails: Trail[] = [
     position: { left: "35%", top: "32%" },
   },
   {
-    name: "Basrur trail",
+    name: "Basrur",
     duration: "6 hours",
     durationHours: 6,
     price: "₹5000 or $75/per person",
@@ -88,7 +88,7 @@ const trails: Trail[] = [
     position: { left: "30%", top: "15%" },
   },
   {
-    name: "Shirva trail",
+    name: "Shirva",
     duration: "6 hours",
     durationHours: 6,
     price: "₹5000 or $75/per person",
@@ -104,7 +104,7 @@ const trails: Trail[] = [
     position: { left: "45%", top: "68%" },
   },
   {
-    name: "Moodabidri trail",
+    name: "Moodabidri",
     duration: "6 hours",
     durationHours: 6,
     price: "₹5000 or $75/per person",
@@ -120,7 +120,7 @@ const trails: Trail[] = [
     position: { left: "78%", top: "85%" },
   },
   {
-    name: "Karkala trail",
+    name: "Karkala",
     duration: "6 hours",
     durationHours: 6,
     price: "₹5000 or $75/per person",
