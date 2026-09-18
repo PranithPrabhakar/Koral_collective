@@ -10,7 +10,7 @@ export const experiences: Experience[] = [
 
     title: "Ratha Beedi",
     teaser:
-      "A walking trail through Udupi's living temple quarter, where ritual, commerce, architecture, and everyday life meet.",
+      "From sacred chariot route to vibrant bazaar to living record of a town in motion, Ratha Beedi—the historic Car Street encircling Krishna Matha—is Udupi’s most storied thoroughfare of faith, commerce, and everyday life.",
 
     description:
       "From sacred chariot routes to the rhythm of a living bazaar, Ratha Beedi reveals the everyday layers around Udupi's temple culture.",
@@ -19,11 +19,11 @@ export const experiences: Experience[] = [
     format: "Walking trail",
 
     highlights: [
-      "The Krishna Temple complex",
+      "The Krishna Temple complex (Krishna Matha)",
       "The ritual life of the temple square",
-      "Ratha Beedi and its changing streetscape",
-      "Shops, eateries, and everyday life",
-      "Historic buildings and local memory",
+      "The evolving streetscape of Ratha Beedi",
+      "Generations of shops, eateries, and everyday practice",
+      "The buildings and facades that hold the temple town’s memory",
     ],
 
     map: {
