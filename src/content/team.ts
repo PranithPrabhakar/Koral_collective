@@ -3,8 +3,9 @@ import type { TeamContent } from "./types";
 export const teamContent: TeamContent = {
   title: "About us",
   intro: [
-    "The koral collective comprises a multidisciplinary team of scholars and researchers dedicated to sharing the layered histories, lesser-known stories, and living cultures of Tulunadu through cultural excursions and guided walking trails across Udupi and Dakshina Kannada.",
-    "We take our name from the koral kattuna parbha, the festival that marks the first paddy harvest of the season, which brings and binds families, faiths, and communities. The koral or paddy is not only nourishment but also inextricably linked to the region’s traditions, rites, festivals, and songs—it is grain and gospel. The paddy stalk in our logo stands for what Tuluvas have always held close: sustenance, prosperity, and reverence for nature.",
+    "**The koral collective** comprises a multidisciplinary team of scholars and researchers dedicated to sharing the layered histories, lesser-known stories, and living cultures of Tulunadu through cultural excursions and guided walking trails across Udupi and Dakshina Kannada.",
+    "Sheltered at the foot of the Western Ghats and battered by sea and rain, Tulunadu endures in the collective memory of its people and in the stories still told. Its cultural life is animated by traditions unlike any others. You cannot help but return with forgotten secrets of the land and the stories whispered by the trees to the sea in a language older than memory.",
+    "We take our name from the *koral kattuna parbha*, the festival that marks the first paddy harvest of the season, which brings and binds families, faiths, and communities. The *koral* or paddy is not only nourishment but also inextricably linked to the region’s traditions, rites, festivals, and songs—it is grain and gospel. The paddy stalk in our logo stands for what Tuluvas have always held close: sustenance, prosperity, and reverence for nature.",
   ],
   groups: [
     {
