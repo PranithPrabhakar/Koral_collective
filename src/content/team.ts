@@ -24,13 +24,6 @@ export const teamContent: TeamContent = {
       title: "Walk leads",
       members: [
         {
-          id: "leslie-j-dias",
-          name: "Leslie J Dias",
-          role: "Architect | Teacher",
-          bio: "Leslie J Dias leads the Kallianpur trail. An architect and teacher with deep roots in the region, he brings an intimate familiarity with Kallianpur's layered history, its built heritage, and the living community that animates its streets.",
-          image: undefined,
-        },
-        {
           id: "murugeshi-t",
           name: "Murugeshi T",
           role: "Professor of Archaeology",
@@ -49,13 +42,6 @@ export const teamContent: TeamContent = {
           name: "Shravya Hegde",
           role: "Architect | Urban Designer",
           bio: "Shravya’s work sits at the intersection of architecture, history, photography, and culture. Informed by Tulunadu’s lore and coastal diversity, she curates meaningful experiences that reward the curious.",
-          image: undefined,
-        },
-        {
-          id: "shridhar-bhat",
-          name: "Shridhar Bhat",
-          role: "Teacher | Local Historian",
-          bio: "Nearly four decades of teaching high school Social studies in Udupi have given Shridhar an intimate familiarity with the region’s past. Beyond the classroom, he has spent years identifying and surveying significant archaeological and historical sites across Kallianpur and Padubidri.",
           image: undefined,
         },
         {
